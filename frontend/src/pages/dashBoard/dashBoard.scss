@@ -1,0 +1,16 @@
+.dashboard-container {
+  .dashboard-header {
+      position:fixed;
+      z-index: 10;
+  }
+  .dashboard-body {
+    .dashboard-sideNav {
+        margin: 0;
+    }
+    .dashboard-details {
+        margin: 52px 0 0 64px;
+        // padding: 20px;
+    }
+    
+  }
+}

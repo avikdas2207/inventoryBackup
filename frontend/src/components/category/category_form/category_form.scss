@@ -1,0 +1,43 @@
+@import "../../../commonStyle/colors";
+@import "../../../commonStyle/breakpoints";
+.CustomerDetailsFrom {
+  position: relative;
+//   padding: 20px 20px 0;
+  .header {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 999;
+    padding: 20px 20px 0;
+    // .CustomerDetailsFrom-title {
+    //   margin: 0 0 15px;
+    // }
+  }
+  .add-brand-from {
+    margin: 10px 0 20px;
+    padding: 0 20px;
+    .select-country,.select-parent-category{
+      width: 100%;
+    }
+  }
+  .divider-2 {
+    margin: 0 15px;
+  }
+  .add-brand-action-button {
+    position: sticky;
+    bottom: 0px;
+    background-color: #fff;
+    z-index: 999;
+    padding: 15px 20px;
+    background-color: lightgray;
+    .action-all-buttons {
+      display: flex;
+      justify-content: flex-end;
+      flex-grow: 1;
+     .submit-button{
+         background-color: $color-primary;
+         color: #fff;
+     }
+    }
+  }
+}

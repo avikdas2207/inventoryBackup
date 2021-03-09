@@ -1,0 +1,93 @@
+@import "../../commonStyle/colors";
+@import "../../commonStyle/breakpoints";
+// .side-navbar{
+//     margin: 52px 0 0;
+// }
+
+.MuiDrawer-paperAnchorDockedLeft {
+  margin-top: 52px;
+  box-shadow: 10px 0px 28px -1px rgba(0, 0, 0, 0.75) !important;
+  -webkit-box-shadow: 10px 0px 28px -1px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 10px 0px 28px -1px rgba(0, 0, 0, 0.75) !important;
+  height: calc(100vh - 52px) !important;
+  background-color: #e8e1e1 !important;
+  @media screen and (max-width: $medium) {
+    margin-top: 0;
+  }
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: none !important;
+}
+
+// .sideNav-active .MuiDrawer-paperAnchorDockedLeft {
+//   border-right: 1px solid  black !important;
+
+//   }
+
+.MuiDrawer-paper {
+  @media screen and (max-width: $medium) {
+    margin-top: 51px;
+    // position: static !important;
+    // height: fit-content !important;
+  }
+}
+
+.sideNav-list {
+  padding-top: 0 !important;
+}
+
+.sidenav-icon {
+  color: $color-primary !important;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border-radius: 50%;
+}
+
+// .sidenav-icon.sidenav-icon-active {
+//   background-color:  rgba(132,54,87,0.3) ;
+// }
+
+.MuiListItemIcon-root {
+  min-width: 40px !important;
+}
+
+.list-item {
+  height: 50px !important;
+  padding: 0 10px !important;
+  // border-radius: 0 50px 50px 0 !important;
+  &:hover {
+    background-color: #bbb8ba9e !important;
+  }
+}
+
+.list-item.list-item-active {
+  background-color: rgba(132, 54, 87, 0.3) !important;
+}
+
+.listItemText {
+  margin-left: 10px;
+  width: 150px !important;
+  color: $color-primary !important;
+  @media screen and (max-width: $medium) {
+    width: 202px !important;
+  }
+}
+
+.list-min {
+  display: none;
+}
+
+.expend-icon.expend-icon-inactive {
+  display: none !important;
+}
+
+.shrink-icon.shrink-icon-inactive {
+  display: none !important;
+}
+
+.sub-list-item-active {
+  padding-left: 32px !important;
+}

@@ -1,0 +1,49 @@
+@import "../../commonStyle/colors";
+@import "../../commonStyle/breakpoints";
+.header-container {
+  background-color: $color-primary !important;
+  .header-toolbar {
+    padding: 0 10px;
+    .menu-button {
+      .menu-icon {
+        color: #fff;
+      }
+      
+    }
+    #profileIcon{
+      padding: 0px;
+    }
+    #profileImage{
+      height: 30px;
+      width: 30px;
+      color:#5f2549;
+      background-color: white;
+    }
+    .iconButtons{
+      display: flex;
+      flex-grow: 1;
+      justify-content: flex-end;
+    }
+    #AccountIcon{
+      color: white;
+    }
+    .company-logo {
+      width: 30px;
+      padding: 5px;
+      margin: 0 5px;
+      @media screen and (max-width: $medium) {
+        // display: none;
+      }
+    }
+    .company-name {
+      margin: 0 20px 0 0;
+      font-family: 'Lato', sans-serif;
+      @media screen and (max-width: $medium) {
+        display: none;
+      }
+      @media screen and (max-width: $xsmall) {
+        display: none;
+      }
+    }
+  }
+}

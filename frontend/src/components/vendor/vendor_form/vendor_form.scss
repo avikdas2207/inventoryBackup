@@ -1,0 +1,103 @@
+@import "../../../commonStyle/colors";
+@import "../../../commonStyle/breakpoints";
+.CustomerDetailsFrom {
+  position: relative;
+  .all-tabs {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 999;
+    padding: 15px;
+    .CustomerDetailsFrom-title {
+      margin: 0 0 15px;
+    }
+  }
+  .customer-from {
+    padding: 0 15px;
+    // height: 56vh;
+    overflow: auto;
+    .customer-basic-details-from,
+    .customer-address-from {
+      height: 56vh;
+    }
+    .customer-basic-details-from {
+      display: flex;
+      flex-wrap: wrap;
+      .company-name,
+      .email,
+      .print-name,
+      .person-salutation,
+      .first-name,
+      .last-name,
+      .gst-treatment,
+      .payment-terms,
+      .currency,
+      .website,
+      .twitter,
+      .facebook,
+      .work-phone,
+      .mobile,
+      .place-of-supply,
+      .tax-reference,
+      .is-indivutual {
+        width: 32%;
+        @media screen and (max-width: $medium) {
+          width: 100%;
+        }
+      }
+
+      .print-name,
+      .first-name,
+      .payment-terms,
+      .twitter,
+      .mobile {
+        margin-left: 1%;
+        margin-right: 1%;
+        @media screen and (max-width: $medium) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+    .customer-address-from {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .billing-address {
+        width: 49%;
+        padding: 1%;
+      }
+      .shipping-address {
+        width: 49%;
+        padding: 1%;
+      }
+    }
+  }
+  .divider-2 {
+    margin: 0 15px;
+  }
+  .action-button {
+    position: sticky;
+    bottom: 0px;
+    background-color: #fff;
+    z-index: 999;
+    padding: 15px;
+    .action-all-buttons {
+      display: flex;
+      justify-content: flex-end;
+      flex-grow: 1;
+      .action-button-cancel {
+        margin: 0 10px 0 0;
+        text-transform: none;
+      }
+      .action-button-back {
+        text-transform: none;
+      }
+      .action-button-next {
+        margin: 0 0 0 10px;
+        text-transform: none;
+        background-color: $color-primary;
+      }
+    }
+  }
+}

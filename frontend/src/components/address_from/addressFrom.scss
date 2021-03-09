@@ -1,0 +1,19 @@
+
+.address-from-container{
+    display: flex;
+    flex-wrap: wrap;
+    .address-count,.address-remove-button{
+        margin: 15px 0 0 0;
+    }
+    .address-from{
+        width: 63%;
+        margin: 0 10px;
+        .address-fax{
+            margin:  10px 0 20px;
+        }
+        .address-street,.select-country,.select-state,.select-city,.address-zipcode,.address-phone{
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+}

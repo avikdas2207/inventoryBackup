@@ -1,0 +1,20 @@
+.delete-container{
+    .MuiTypography-root{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .warningText{
+        margin: -3px;
+        padding: 0 10px;
+        color: #856404;
+    }
+    .warningIcon{
+        color: #856404;
+    }
+    .cancelButton{
+        color: black;
+    }
+}
+.deleteButton{
+    color: red !important
+}

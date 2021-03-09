@@ -1,0 +1,28 @@
+// .customer-contact-person-container{
+//     display: flex;
+//     flex-wrap: wrap;
+//     .contact-count{
+
+//     }
+// }
+
+
+.customer-contact-person-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    .contact-count,.contact-remove-button{
+        margin: 15px 0 0 0;
+    }
+    .contact-from{
+        // width: 53%;
+        margin: 0 10px;
+        .person-salutation{
+            margin:  10px 0 20px;
+        }
+        .person-salutation,.contact-fName,.contact-lName,.contact-email,.contact-work-phone,.address-zipcode,.address-phone{
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+}

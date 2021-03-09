@@ -1,0 +1,23 @@
+.card-container{
+    margin: 7% auto;
+    width: 60%;
+    /* height: 3%; */
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    // .welcome-Image{
+    //     width: 100%;
+    //     margin: auto;
+    // }
+    .MuiCardContent-root{
+        padding: 0px;
+    }
+    .welcome-card{
+        display: flex;
+        justify-content: center;
+    }
+    .welcome-message{
+        margin: auto;
+        font-size: x-large;
+    }
+}

@@ -1,0 +1,53 @@
+#table-container{
+    
+    .MuiTablePagination-root{
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        width: 92.5%;
+    }
+    .MuiTableRow-head{
+        background-color: #5f2549;
+    }
+    .MuiTableSortLabel-root{
+        color: white;
+        font-weight: 600;
+    }
+    #tableTitle{
+        padding-left: 1%;
+    }
+    .MuiTableSortLabel-icon{
+        color: white;
+    }
+    
+    .MuiTableRow-head{
+        .MuiSvgIcon-root{
+            color: white;
+        }
+    }
+    .MuiToolbar-root{
+        .MuiSvgIcon-root{
+            color: #5f2549;
+        }
+    }
+    .switchButton{
+        background-color: rgba(132, 54, 87, 0.3);
+        text-transform: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #table-container{
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        .MuiTablePagination-root{
+            width: 75%;
+        }
+        }
+        .globalsearch-bar{
+            width: 100%;
+        }
+        .search-icon{
+            display: none;
+        }
+    }

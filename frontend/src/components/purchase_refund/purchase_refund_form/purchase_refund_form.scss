@@ -1,0 +1,95 @@
+@import "../../../commonStyle/colors";
+@import "../../../commonStyle/breakpoints";
+.purchase-refund-form{
+  position: relative;
+  .all-tabs {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 999;
+    padding: 25px 15px 15px;
+    .CustomerDetailsFrom-title {
+      margin: 0 0 15px;
+    }
+    
+  }
+  .selectPayment , .paymentThrough {
+    width: 49%;
+  }
+  .paymentSelect{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .purchase-refund-form {
+    padding: 0 15px;
+    width: 60%;
+    
+    overflow: auto;
+    .customer-basic-details-from {
+      display: flex;
+      flex-wrap: wrap;
+      .company-name,
+      .email,
+      .print-name,
+      .person-salutation,
+      .first-name,
+      .last-name,
+      .gst-treatment,
+      .payment-terms,
+      .currency,
+      .website,
+      .twitter,
+      .facebook,
+      .work-phone,
+      .mobile,
+      .place-of-supply,
+      .tax-reference {
+        width: 32%;
+        @media screen and (max-width: $medium) {
+          width: 100%;
+        }
+      }
+
+      .print-name,
+      .first-name,
+      .payment-terms,
+      .twitter,
+      .mobile {
+        margin-left: 1%;
+        margin-right: 1%;
+        @media screen and (max-width: $medium) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .divider-2 {
+    margin: 0 15px;
+  }
+  .action-button {
+    position: sticky;
+    bottom: 0px;
+    background-color: #fff;
+    z-index: 999;
+    padding: 15px 15px 25px;
+    .action-all-buttons {
+      display: flex;
+      justify-content: flex-end;
+      flex-grow: 1;
+      .action-button-cancel {
+        margin: 0 10px 0 0;
+        text-transform: none;
+      }
+      .action-button-back {
+        text-transform: none;
+      }
+      .action-button-next {
+        margin: 0 0 0 10px;
+        text-transform: none;
+        background-color: $color-primary;
+      }
+    }
+  }
+}
